@@ -44,9 +44,8 @@
   <% @meeseeks.each do |meeseek| %>
   <p>
     <div class="each-meeseek">
-      <%= meeseek.name %><br>
+      <strong><%= meeseek.name %></strong><br>
       <%= meeseek.address %><br>
-      <%= meeseek.distance.round(2) %> miles
     </div>
   </p>
   <% end %>
