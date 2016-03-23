@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+@font-face {
+  font-family: 'Brandon';
+  src: url('/font/Brandon_med.otf');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Brandon';
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: uppercase;
+}
