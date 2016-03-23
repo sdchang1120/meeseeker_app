@@ -21,7 +21,8 @@ pre {
 a {
   color: #000;
   text-decoration: none;
-  font-family: 'Brandon';
+  font-family: serif;
+  font-style: italic;
   // display: block;
 
   &:visited {
@@ -29,8 +30,8 @@ a {
   }
 
   &:hover {
-    color: #fff;
-    background-color: #000;
+    color: #00B0FF;
+    // background-color: #000;
   }
 }
 
