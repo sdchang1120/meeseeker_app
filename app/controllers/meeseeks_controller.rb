@@ -4,7 +4,11 @@ class MeeseeksController < ApplicationController
   # GET /meeseeks
   # GET /meeseeks.json
   def index
-    @meeseeks = Meeseek.all
+    if params[:search].present?
+      @meeseeks = Meeseek.near(params[:search])
+    else
+      @meeseeks = Meeseek.all
+    end
   end
 
   # GET /meeseeks/1
