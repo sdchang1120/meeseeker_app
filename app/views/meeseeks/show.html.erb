@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @meeseek.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @meeseek.address %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @meeseek.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @meeseek.longitude %>
+</p>
+
+<%= link_to 'Edit', edit_meeseek_path(@meeseek) %> |
+<%= link_to 'Back', meeseeks_path %>

@@ -1,0 +1,2 @@
+module MeeseeksHelper
+end
