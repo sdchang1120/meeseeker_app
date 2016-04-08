@@ -14,6 +14,11 @@
  *= require_self
  */
 
+#map {
+  width: 100%;
+  height: 400px;
+}
+
 @font-face {
   font-family: 'Brandon';
   src: url('/font/Brandon_med.otf');

@@ -1,5 +1,10 @@
 <p id="notice"><%= notice %></p>
 
+
+<!-- <div id="map"></div> -->
+
+
+
 <div class="meeseek-finder">
   <h1>Meeseek Finder</h1>
   <%= form_tag meeseeks_path, :method => :get do %>
@@ -8,6 +13,9 @@
     <%= submit_tag "Search Near", :name => nil %>
   </p>
   <% end %>
+
+  <div id="map"></div>
+
   <h3>Nearby Meeseeks</h3>
   <% @meeseeks.each do |meeseek| %>
   <p>
