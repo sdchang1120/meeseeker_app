@@ -1,7 +1,36 @@
-== README
+== Meeseeker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+=== Description
+
+Meeseeker is a Ruby on Rails app that allows users to search and find nearby Meeseeks (students in our cohort) by address. If a Meeseek is within 25 miles radius of the location, the Meeseek is be listed under 'Nearby Meeseeks'.
+
+=== Tech Used / Stack
+
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* Ruby on Rails
+* PostgreSQL
+* geocoder gem
+* Google Maps & Places API
+* geocomplete jQuery plugin
+
+=== Features
+* User can search a Meeseek by location
+* CRUD (create, read, update, delete) a Meeseek
+* Interactive Google Map
+* Autocomplete location
+
+=== Future Implementations
+
+* Customized pins to show Meeseeks locations on map
+* More styling
+* User authentication
+* Adding user restrictions
+
+=== Comments
+This was a fun mini project I created so my classmates and "stalk" one another after graduating.
 
 Things you may want to cover:
 
