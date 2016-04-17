@@ -1,5 +1,5 @@
 == Meeseeker
-live[http://meeseeker.herokuapp.com]
+{check it out}[http://meeseeker.herokuapp.com]
 
 === Description
 
