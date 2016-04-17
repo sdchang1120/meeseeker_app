@@ -1,7 +1,4 @@
 == Meeseeker
-{check it out}[http://meeseeker.herokuapp.com]
-
-=== Description
 
 Meeseeker is a Ruby on Rails app that allows users to search and find nearby Meeseeks (students in our cohort) by address. If a Meeseek is within 25 miles radius of the location, the Meeseek will be listed under 'Nearby Meeseeks'.
 
