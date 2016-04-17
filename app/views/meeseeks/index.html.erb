@@ -4,8 +4,8 @@
   <h3>Where are the Meeseeks?</h3>
   <%= form_tag meeseeks_path, :method => :get do %>
   <p>
-    <%= text_field_tag :search, params[:search], :id => 'geo-input' %>
-    <%= submit_tag "Search Near", :name => nil %>
+    <%= search_field_tag :search, params[:search], :id => 'geo-input' %>
+    <%= submit_tag "Search", :name => nil %>
   </p>
   <% end %>
 
@@ -24,7 +24,7 @@
 
 <h1>List of Meeseeks</h1>
 
-<%= link_to 'New Meeseek', new_meeseek_path %>
+<%= link_to 'Add a Meeseek', new_meeseek_path %>
 
 <br><br>
 
