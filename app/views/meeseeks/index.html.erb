@@ -5,7 +5,8 @@
   <%= form_tag meeseeks_path, :method => :get do %>
   <p>
     <%= search_field_tag :search, params[:search], :id => 'geo-input' %>
-    <%= submit_tag "Search", :name => nil %>
+    <!-- <%= submit_tag "Search", :name => nil %> -->
+    <button type="search" name="button"><i class="fa fa-search" aria-hidden="true"></i></button>
   </p>
   <% end %>
 

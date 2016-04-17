@@ -58,6 +58,14 @@ h3 {
   text-transform: uppercase;
 }
 
+button[type="search"] {
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  background: transparent;
+  color: #00B0FF;
+}
+
 footer {
   width: 100%;
   background: #00B0FF;
