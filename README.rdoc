@@ -27,7 +27,7 @@ Meeseeker is a Ruby on Rails app that allows users to search and find nearby Mee
 * Customized pins to show Meeseeks locations on map
 * More styling
 * User authentication
-* Adding user restrictions
+* Add user restrictions
 
 === Comments
 This was a fun mini project I created so my classmates and "stalk" one another after graduating.
