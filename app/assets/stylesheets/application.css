@@ -37,6 +37,8 @@ nav {
 }
 
 nav h1 {
+  font-family: 'Brandon';
+  font-style: normal;
   color: white;
   line-height: 0;
 }
