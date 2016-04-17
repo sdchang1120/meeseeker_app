@@ -1,12 +1,7 @@
 <p id="notice"><%= notice %></p>
 
-
-<!-- <div id="map"></div> -->
-
-
-
 <div class="meeseek-finder">
-  <h1>Meeseeker</h1>
+  <h3>Where are the Meeseeks?</h3>
   <%= form_tag meeseeks_path, :method => :get do %>
   <p>
     <%= text_field_tag :search, params[:search], :id => 'geo-input' %>
@@ -54,3 +49,7 @@
     <% end %>
   </tbody>
 </table>
+
+<footer>
+&copy; 2016 <a href="http://sharonchang.me">Sharon Chang</a>
+</footer>
