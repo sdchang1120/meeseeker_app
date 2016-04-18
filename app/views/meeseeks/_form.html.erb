@@ -13,19 +13,19 @@
 
   <div class="field">
     <%= f.label :name %><br>
-    <%= f.text_field :name %>
+    <%= f.text_field :name, :placeholder => "i.e. Jane" %>
   </div>
   <div class="field">
     <%= f.label :address %><br>
-    <%= f.text_field :address %>
+    <%= f.text_field :address, :placeholder => "i.e. 10 E 21st Street, New York, NY 10010" %>
   </div>
   <div class="field">
     <%= f.label :latitude %><br>
-    <%= f.text_field :latitude %>
+    <%= f.text_field :latitude, :placeholder => "i.e. 40.7398848" %>
   </div>
   <div class="field">
     <%= f.label :longitude %><br>
-    <%= f.text_field :longitude %>
+    <%= f.text_field :longitude, :placeholder => "i.e. -73.9900818" %>
   </div>
   <div class="actions">
     <%= f.submit %>
